@@ -25,7 +25,6 @@
         keyring
         languageserver
         openai
-        pak
         qtkit
         reprex
         skimr
