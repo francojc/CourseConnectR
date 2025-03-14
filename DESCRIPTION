@@ -1,0 +1,10 @@
+Package: CourseConnectR
+Title:   Enhances Canvas Management
+Version: 0.0.0.9000
+Authors@R:
+    person("Jerid", "Francom", , "francojc@wfu.edu", role = c("aut", "cre"))
+Description: Designed to streamline and enhance Canvas course management. It builds on the `{rcanvas}` package, offering features for seamless management of courses, assignments, and tasks, along with integrations for language model processing.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

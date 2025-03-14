@@ -1,0 +1,49 @@
+add_enrollment          Enroll a user into the course
+add_enrollments         Enroll user(s) into a course (or multiple
+                        courses)
+apihelpers              Canvas API helpers
+create_canvas_course    Create a course
+create_canvas_module    Create a course module
+create_canvas_module_item
+                        Create a module item
+create_course_assignment
+                        Create a course assignment
+create_course_content_migration
+                        Create a course content migration
+create_course_folder    Create a course folder
+create_group_category   Create a group category
+create_wpage            Create page in course
+delete_wpage            Delete page from course
+do_query                Execute a query on the remove API
+duplicate_wpage         Duplicate course page
+get_announcements       Get announcements for a course
+get_assignment_list     Function to list all assignments.
+get_course_analytics_data
+                        Function to return course analytics data.
+get_course_gradebook    Get a course gradebook
+get_course_items        Function to return various course items.
+get_course_list         Function to list all courses.
+get_course_user_groups
+                        Get all users in a course and which group they
+                        are signed up for
+get_discussions_context
+                        Discussion functions
+get_group_categories    Group categories
+get_group_category      Get a single group category
+get_module_list         Get List of modules in a course
+get_outcome_results     Function to return course outcome results.
+get_user_items          Get various user items
+get_wpage               Get data frame of a page in course
+get_wpages_list         Get data frame of pages in course
+groups                  Groups
+paginate                Get responses from Canvas API pages
+process_response        Process a Canvas API response
+rcanvas                 rcanvas: R client for Canvas API
+search_courses          Search all courses
+show_wpage_front        Show Front Page
+submission_response     Respond to submission
+submissions             Submission functions
+submit_file_upload_assignment
+                        Upload a file to an assignment and submit it
+update_wpage            Update/Create page in course
+upload_course_file      Upload a file to a course

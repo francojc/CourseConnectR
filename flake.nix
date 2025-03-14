@@ -25,12 +25,14 @@
         keyring
         languageserver
         openai
+        pkgdown
         qtkit
         reprex
         skimr
         sodium
         tidyverse
         tinytex
+        usethis
       ];
 
       texlivePackages = with pkgs.texlive; [
@@ -45,7 +47,7 @@
       devShell = pkgs.mkShell {
         buildInputs = allPackages;
         shellHook = ''
-          export R_LIBS_USER=$PWD/R/Library
+          export R_LIBS_USER=$PWD/Library
           mkdir -p "$R_LIBS_USER";
         '';
       };
